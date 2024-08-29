@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <!-- Elementos básicos de un formulario 
+        <form> Define el formulario
+        <input> Define un campo de entrada -- No lleva etiqueta de cierre
+        <textarea> Definir campo de entrada de texto -- comentario
+        <button> Define un botón 
+    -->
+    <form action="#" method="">
+        <div>
+            <label>Ingrese nombre</label>
+            <input type="text" id="name" name="name" value="" />
+        </div>
+        <br />
+        <div>
+            <label>Edad</label>
+            <input type="number" id="age" name="age" min="0" max="10" />
+        </div>
+        <br />
+        <div>
+            <label>Ingrese contraseña</label>
+            <input type="password" id="password" name="password" />
+        </div>
+
+        <br />
+        <div>
+            <label>Email</label>
+
+            <input type="email" id="email" name="email" />
+        </div>
+        <div>
+            <label>Genero</label>
+            <br />
+            <label>
+                Femenino
+                <input type="radio" name="gender" value="F" />
+            </label>
+
+            <br />
+            <label>Masculino
+                <input type="radio" name="gender" value="M" />
+            </label>
+            <br />
+            <label>Otro
+                <input type="radio" name="gender" value="N/A" />
+            </label>
+        </div>
+
+        <div>
+            <label> Checkbox</label>
+            <br/>
+            <label>
+                Rojo
+                <input type="checkbox" name="opcion1" value="Rojo"/> 
+            </label>
+           <label>
+                Verde
+                <input type="checkbox" name="opcion1" value="Verde"/> 
+           </label>
+        </div>
+
+        <div>
+            <label>Textarea</label>
+            <br/>
+            <textarea 
+                name="comment"
+                rows="4"
+                cols="50"
+                maxlength="20"
+            >
+            Hola desde textarea</textarea>
+        </div>
+
+        <div>
+            <input type="file" name="fileExample" />
+        </div>
+        <br/>
+        <div>
+            <input type="date" name="datetime" />
+            <input type="datetime-local" name="datetime" />
+        </div>
+
+        <br/>
+
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
+
+</body>
+
+</html>
