@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Etiquetas de tablas -->
+     <table border="1">
+        <!-- tr(table row):Filas  -->
+        <tr>
+         <!-- th: (table header) -->
+           <th> Nombre</th>
+           <th> Edad </th> 
+        </tr>
+        <tr>
+         <!-- td: (table data) -->
+         <td> Jessica </td>
+         <td> 31 </td>
+        </tr>
+        <tr>
+         <td>Ana</td>
+         <td>24</td>
+        </tr>
+     </table>
+
+
+     <!-- Tabla semantica 
+         * <thead> , <tbody> <tfood> 
+     -->
+
+     <table border="1">
+       <thead>
+         <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+            <td>Arroz</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>Gaseosa</td>
+            <td>10</td>
+         </tr>
+       </tbody>
+       <tfoot>
+         <tr>
+            <td>Total</td>
+            <td>15</td>
+         </tr>
+       </tfoot>
+     </table>
+
+     <!-- Colspan: Nos permite agrupar columnas -->
+
+     <table border="1">
+         <thead>
+            <tr>
+               <th colspan="2"> Titulo1</th>
+            </tr>
+            <tr>
+               <th width="100px">Nombre</th>
+               <th>Apellido</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td colspan="2"> Maria Suarez</td>
+            </tr>
+            <tr>
+               <td>Daniela</td>
+               <td>Lopez</td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Soy un parrafo en una tabla</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <a href="https://www.google.com/" target="_blank">Ir a google</a>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <img src="./imagenPrueba.jpg" alt="Imagen Prueba"  width="100px"/>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <button type="button" onClick="alert('Hola mundo')" >Guardar</button>
+               </td>
+            </tr>
+         </tbody>
+     </table>
+
+     <!-- Botones: <button>
+         tipos: button, submit
+      
+      -->
+
+</body>
+</html>
