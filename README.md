@@ -24,4 +24,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 1
 - 26/08/2024 Etiquetas basicas HTML https://www.youtube.com/watch?v=7rJNTM8QJVEM
 - 28/08/2024 Tablas y Formularios   https://www.youtube.com/watch?v=Z5RhZleG8Z4
+- 30/08/2024 Formularios y HTML Semántico  https://www.youtube.com/watch?v=utDFC-vBP48
 
