@@ -1,19 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
+
 <body>
     <h1>Formularios</h1>
     <form action="#" method="">
         <!-- text, password, email, number, date, checkbox, radio, datetime-local, file -->
+        <label>Nombre</label>
         <input type="text" name="name" placeholder="Escribir nombre" />
         <!-- Campo de texto de múltiples líneas -->
+        <br /> <br />
         <textarea name="comment" rows="4" cols="50">
             Escribir mensaje
         </textarea>
+
+        <!-- Select: Lista desplegable -->
+        <!-- 
+            selected: Definir un valor por defecto
+            disabled: Permite deshabilitar una opción
+        -->
+
+        <select name="country">
+            <option value="" disabled>Seleccionar</option>
+            <option value="co" selected>Colombia</option>
+            <option value="ca">Canada</option>
+            <option value="pe" disabled>Peru</option>
+        </select>
+        <br /> <br />
+        <br /> <br />
+
+        <fieldset>
+            <legend>Genero</legend>
+            <label>
+                Femenino
+                <input type="radio" name="gener" value="f" />
+            </label>
+            <label>
+                Masculino
+                <input type="radio" name="gener" value="m" />
+            </label>
+            <label>
+                Otro
+                <input type="radio" name="gener" value="o" />
+            </label>
+        </fieldset>
+
+        <button type="button" onclick="alert('Añadir')">
+            Añadir otro
+        </button>
+        <br /> <br />
+
+        <button type="submit">
+            Enviar
+        </button>
+
     </form>
+
+    <!-- Crear un formulario con los siguientes campos
+     
+        * Nombre ( tipo texto )
+        * Pais ( select )
+        * Calificación del servicio(radio)
+        * Comentario ( textarea)
+        * botón de enviar
+    -->
 </body>
+
 </html>
