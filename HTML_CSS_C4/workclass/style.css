@@ -1,0 +1,92 @@
+/* Selectores de tipo tag: Selecciona todos los elementos de un tipo especifico::after
+    Son las etiquetas del html
+*/
+html {
+    /* Fuente raiz: Por defecto - 16px */
+    font-size: 16px;
+    /* Font-family: "fuente-primaria", "fuente-alternativa", "tipo-de-fuente-generico" */
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    /* font-family: "Handjet", sans-serif; */
+}
+
+p {
+    /* color: #2dcba7;  Hexadecimal*/
+    /* color: green  Nombre*/
+    /* color: rgb(32, 130, 108); rgb */
+    color: red;
+    /* font-size: 16px; */
+    /* Rem: Depende del tamaño de mi fuente raiz */
+    /* font-size: 2rem; */
+    /* font-size: 2em; */
+    line-height: 1.5;
+    /* font-weight: 900; */
+    /* font-weight: bold; */
+    font-weight: lighter;
+
+    
+}
+
+/* Selector de tipo clase */
+
+.container {
+   background-color: darkgreen ;
+   font-size: 11px; 
+   /* width: 500px;
+   height: 200px;
+   max-width: 300px;
+   max-height: 100px;
+   min-width: 100px;
+   min-height: 50px; */
+   /* width: 100%; */
+   /* 
+    viewport width : vw
+    viewport height: vh
+   */
+
+   width: 50vw;
+   height: 20vh;
+
+}
+
+/* Selectores de tipo id */
+#parrafoDiv {
+    color:chocolate;
+    background-color: antiquewhite;
+    width: 40%;
+    /* Em: Unidad relativa que depende de el tamaño de la fuente del
+        elemento padre
+    */
+    font-size: 2em;
+}
+
+.text {
+    /* text-align: left ; Alinea a la izquierda - Valor por defecto */
+    /* text-align: right; Alinea a la derecha */
+    /* text-align: center; Alinea al centro */
+    /* text-align: justify; Justifica texto*/
+    /* text-align: start; Alinea el texto al inicio del contenedor */
+    /* text-align: end; Alinea el texto al final del contenedor */
+    text-align: left;
+    /* letter-spacing: 5px; Espaciado entre caracteres*/ 
+    /* word-spacing: 30px; Espaciado entre palabras */
+}
+
+h1 {
+    /* text-transform: capitalize ; Primera letra de cada palabra en mayuscula*/
+    /* text-transform: uppercase; Cambia el texto a mayúsculas*/
+    /* text-transform: lowercase; Cambia todo a minúscula*/
+    /* text-transform: full-width; */
+    text-transform: capitalize;
+}
+
+a {
+   /* text-decoration: none; Eliminar cualquier decoración */
+   /* text-decoration: underline; Subraya el texto  */
+   /* text-decoration: overline; Coloca una línea encima del texto */
+   /* text-decoration: line-through; Tachar el texto */
+   text-decoration: none;
+}
+
+
+
