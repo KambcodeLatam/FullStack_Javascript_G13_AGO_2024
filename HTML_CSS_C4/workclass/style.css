@@ -89,4 +89,14 @@ a {
 }
 
 
-
+.borderContainer{
+    width: 300px;
+    height: 300px;
+    /* border-width: 5px Ancho del borde;
+    border-style:double Estilo del borde;
+    border-color: brown Color del borde;
+     */
+    border: 2px solid brown;
+    /* Border-radius: Redondeo de las esquinas */
+    border-radius: 11px;
+}
