@@ -1,0 +1,148 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+:root {
+  margin: 0;
+}
+
+p {
+  font-size: 22px;
+}
+
+/* PseudoElementos */
+
+p::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: rosybrown;
+  border-radius: 50%;
+}
+
+p::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: blue;
+}
+
+.container {
+  width: 200px;
+}
+
+.container::first-line {
+  color: blue;
+  font-weight: bold;
+}
+
+.container::first-letter {
+  font-size: 20px;
+  color: darkblue
+}
+
+input::placeholder {
+  color: brown;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+.item_form {
+  margin-bottom: 20px;
+  /* margin:20px 0px */
+}
+
+/* Pseudoclases */
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 11px;
+  color: darkblue;
+  font-size: 16px;
+  border: 2px solid lightcoral;
+}
+
+button:hover {
+  color: lightcoral;
+  background-color: transparent;
+  border: 2px solid darkblue;
+} 
+
+input:focus {
+  color: red;
+  outline-color: brown;
+}
+
+a:active {
+  background-color: orangered;
+  color: white;
+}
+
+a:visited {
+  color: red
+}
+
+.item:nth-child(3){
+  color: green;
+} 
+
+.item:first-child {
+  color: darkslateblue;
+}
+
+.item:last-child {
+  color: darkred;
+}
+
+/* BOXMODEL */
+
+.box-container {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  /* padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px; */
+
+  /* padding: arriba derecha abajo izquierda */
+  /* padding: 15px 20px 20px 5px; */
+  /*  padding: arriba-abajo lados; */
+  padding: 15px 20px;
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+  border: 2px solid black;
+
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../resources/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  margin: 40px 0;
+}
+
+
+.banner h2 {
+  text-align: center;
+}
+
+.banner p {
+  width: 500px;
+  margin: 0 auto;
+}
