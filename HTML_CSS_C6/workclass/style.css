@@ -1,0 +1,104 @@
+
+:root {
+  /* Variables */
+  /* Colores */
+  --principalColor: coral;
+  --blueColor: darkblue;
+  --orangeColor: darkorange;
+  --greenColor: darkgreen;
+  --redColor: darkred;
+
+  /* Tamaños */
+  --bigText: 35px;
+  --normalText: 25px;
+  --smallText: 15px;
+
+  /* Box-shadow */
+  --shadowPrincipal: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+
+  /* Border-radius */
+  --radius: 10px;
+  /* Border */
+  --bd : 2px solid black;
+}
+
+body {
+  height: 300vh;
+}
+.container {
+  /* box-shadow: desplazamiento-x desplazamiento-y desenfoque expansion color; */
+  /* box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5); */
+  box-shadow: var(--shadowPrincipal);
+  width: 500px;
+  /* height: 200px; */
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: var(--radius);
+}
+
+h1 {
+  color: var(--principalColor);
+  font-size: var(--bigText);
+}
+
+p {
+  color: var( --blueColor);
+  font-size: var(--normalText);
+}
+
+li {
+  color: var( --blueColor);
+  font-size: var(--smallText);
+}
+
+.container_position {
+  width: 500px;
+  height: 500px;
+  border: var(--bd);
+  border-radius: var(--radius);
+  margin: 10px auto;
+  position: relative;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
+
+.static {
+  background-color: var(--principalColor) ;
+  position: static;
+}
+
+.relative {
+  background-color: var(--blueColor);
+  position: relative;
+  /* top: 50px; */
+  left: 100px;
+   /* right: 50px; */
+  bottom: 80px; 
+}
+
+.absolute {
+  background-color: var(--greenColor);
+  position: absolute;
+  top:50%;
+  left: 200px;
+}
+
+.fixed {
+  background-color: var(--redColor);
+  position: fixed;
+  top: 0;
+  /* bottom: 0; */
+}
+
+.sticky {
+  background-color: var(--orangeColor);
+  position: sticky;
+  top: 0px;
+  left: 10px;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --whiteColor: white;
+  --blackColor: black;
+
+  --fontBigger: 100px;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  background-color: var(--whiteColor);
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 20px
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-size: var(--fontBigger);
+  color: var(--whiteColor)
+}
