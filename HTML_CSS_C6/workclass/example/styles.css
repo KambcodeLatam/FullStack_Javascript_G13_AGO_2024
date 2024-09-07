@@ -5,14 +5,18 @@
 :root {
   --whiteColor: white;
   --blackColor: black;
+  --lightBlueColor: #0db7eb;
 
   --fontBigger: 100px;
+  --fontMedium: 20px;
+  
+  --principalBorder: 2px solid var(--lightBlueColor);
 }
 
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url('./img/background.jpg');
+  background-image: linear-gradient( #00339391, #8237f2ac),url('./img/background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -27,7 +31,17 @@ nav {
 
 li {
   display: inline-block;
-  margin: 10px 20px
+  margin: 10px 20px;
+}
+
+a {
+  color: var(--blackColor);
+  text-decoration: none;
+  font-size: var(--fontMedium);
+}
+
+a:hover {
+  color: var(--lightBlueColor)
 }
 
 .header-title {
@@ -35,5 +49,72 @@ li {
   top: 50%;
   left: 35%;
   font-size: var(--fontBigger);
+  color: var(--whiteColor);
+}
+
+section {
+  margin: 40px 0px;
+}
+
+h2 {
+  color: var(--lightBlueColor);
+  text-align: center;
+}
+
+.about-text {
+  width: 600px;
+  margin: 15px auto;
+}
+
+form {
+  margin: 10px auto;
+  width: 600px;
+  padding: 15px;
+  border: var(--principalBorder);
+}
+
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  padding: 10px;
+  border: var(--principalBorder);
+  color: var(--lightBlueColor);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--lightBlueColor);
+}
+
+button {
+  display: block;
+  width: 150px;
+  background-color: transparent;
+  border: var(--principalBorder);
+  padding: 5px;
+  margin: 5px auto;
+  cursor: pointer;
+  color: var(--lightBlueColor);
+}
+
+button:hover {
+  background-color: var(--lightBlueColor);
   color: var(--whiteColor)
+}
+
+.sticky {
+  position: sticky;
+  bottom: 50px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.sticky img {
+  width:  100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
 }
