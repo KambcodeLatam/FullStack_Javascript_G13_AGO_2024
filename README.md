@@ -25,4 +25,9 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/08/2024 Etiquetas basicas HTML https://www.youtube.com/watch?v=7rJNTM8QJVEM
 - 28/08/2024 Tablas y Formularios   https://www.youtube.com/watch?v=Z5RhZleG8Z4
 - 30/08/2024 Formularios y HTML Semántico  https://www.youtube.com/watch?v=utDFC-vBP48
+- 02/09/2024 Introducción CSS  https://www.youtube.com/watch?v=CtuOqihA3KI - https://www.youtube.com/watch?v=OOQQYWNfHs4
+- 04/09/2024 Box Model y Selectores de id y clase  https://www.youtube.com/watch?v=unx8rCIWw7Q
+- 06/09/2024 Variables y position https://www.youtube.com/watch?v=C0kKhrD4GTs
+- 10/09/2024 Flexbox - Parte 1  https://www.youtube.com/watch?v=chaQnmjhViA
+- 11/09/2024 Flexbox - Parte 2  https://youtu.be/K9MylYWlmFQ
 

@@ -30,7 +30,7 @@
   /* align-self: center ; */
   /* align-self: flex-end ; */
   /* align-self: flex-start ; */
-
+  /* align-items: stretch; */
 }
 .item2{
   order: 3;

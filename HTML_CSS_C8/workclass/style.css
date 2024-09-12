@@ -1,0 +1,100 @@
+ 
+.container {
+  width: 500px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 50px auto;
+  display: flex;
+}
+
+.item {
+  width: 80px;
+  /* height: 80px; */
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.item:nth-child(1){
+  background-color: tomato;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+  order: 2;
+}
+
+.item:nth-child(2){
+  background-color: darkblue;
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+  flex-basis: 30px;
+  order: 1;
+}
+
+.item:nth-child(3){
+  background-color: darkmagenta;
+  align-self: baseline;
+  /* flex-shrink: 0; */
+  order: -1;
+}
+.item:nth-child(4){
+  background-color: darkred;
+  /* flex-shrink: 0; */
+}
+
+
+/* Estilos CARD */
+
+.cardContainer {
+  display: flex;
+  margin : 50px auto; 
+  width: 800px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.profile {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.profile h3 {
+  color: tomato
+}
+
+.profile p {
+  font-weight: bold;
+}
+
+.description {
+  padding: 30px 20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.overflowContainer {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  /* overflow: auto; */
+  overflow-y: auto;
+  /* overflow-x: scroll; */
+}
+
+.overflowContainer p {
+  width: 400px;
+}
