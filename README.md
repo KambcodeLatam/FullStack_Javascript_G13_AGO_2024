@@ -30,4 +30,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 06/09/2024 Variables y position https://www.youtube.com/watch?v=C0kKhrD4GTs
 - 10/09/2024 Flexbox - Parte 1  https://www.youtube.com/watch?v=chaQnmjhViA
 - 11/09/2024 Flexbox - Parte 2  https://youtu.be/K9MylYWlmFQ
-
+- 14/09/2024 MediaQueries https://www.youtube.com/watch?v=noOPCTe2mKo
+- 16/09/2024 GRID https://www.youtube.com/watch?v=fedfZvpmnMQ
