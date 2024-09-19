@@ -126,3 +126,18 @@
   background-color: darkblue;
   grid-area: footer;
 }
+
+.containerTest {
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 100px 50px 100px;
+  gap: 5px;
+  justify-content: space-evenly;
+
+}
+
+.itemOption {
+  background-color: gray;
+}
