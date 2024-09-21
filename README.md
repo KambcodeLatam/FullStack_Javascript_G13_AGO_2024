@@ -32,3 +32,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 11/09/2024 Flexbox - Parte 2  https://youtu.be/K9MylYWlmFQ
 - 14/09/2024 MediaQueries https://www.youtube.com/watch?v=noOPCTe2mKo
 - 16/09/2024 GRID https://www.youtube.com/watch?v=fedfZvpmnMQ
+- 18/09/2024 Transformaciones y transiciones  https://youtu.be/LBcfgOXP9w8
