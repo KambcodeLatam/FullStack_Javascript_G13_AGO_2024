@@ -36,3 +36,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 20/09/2024 Animaciones  https://www.youtube.com/watch?v=GdgbJEE4WFU
 
 ## Modulo 2
+- C1. 23/09/2024 Introducción Variables y Tipos de Datos: https://youtu.be/sRTi_ZUUxtM
