@@ -75,9 +75,12 @@ var year = '20' + 24 // 44 || 2024
 // ----------------------------------------------
 
 var fruta = prompt('Digita una fruta'); // uva
+var manzanas = 'manzanas'
 
-if(fruta === 'uva'){
+if(fruta === manzanas){
     document.write('Usted va a comprar una uva')
 } else {
     document.write('Usted compró otra fruta')
 }
+
+
