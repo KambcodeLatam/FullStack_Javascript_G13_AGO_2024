@@ -4,7 +4,7 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
 
 ## Tareas
 
-Como tarea te proponemos crear algunos programas usando variables, operadores logicos y condicionales:
+Como tarea te proponemos crear algunos programas usando variables y condicionales:
 
 1. Escribe un programa que almacene en una variable la contraseña correcta para ingresar a la pagina, ejemplo `var correctPassword = "kambcode"`. Tu programa debe preguntar por medio de un ´prompt´ al usuario por la contraseña e imprima por pantalla  el mensaje "Inicio de sesion exitoso" solo si la contraseña introducida por el usuario coincide con la guardada en la variable.
 
