@@ -39,3 +39,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1. 23/09/2024 Introducción Variables y Tipos de Datos: https://youtu.be/sRTi_ZUUxtM
 - C2. 25/09/2024 Comparadores y Condicionales if / else: https://youtu.be/r0dGOTLShU4
 - C3. 27/09/2024 Constantes(const) y Operadores Lógicos (AND y OR): https://youtu.be/oMGnQanFsWY
+- C4. 30/09/2024 Condicional if / else if / else: https://youtu.be/4t9yRSKzVKU
