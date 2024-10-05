@@ -1,1 +1,0 @@
-// Les voy a mostrar un programa para que nuestras computadoras entiendan que pueden usar JS sin nevesidad de un navegador.

@@ -41,3 +41,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3. 27/09/2024 Constantes(const) y Operadores Lógicos (AND y OR): https://youtu.be/oMGnQanFsWY
 - C4. 30/09/2024 Condicional if / else if / else: https://youtu.be/4t9yRSKzVKU
 - C5. 02/10/2024 Bucles while y for: https://youtu.be/zOALaRRka-o
+- C6. 04/10/2024 var y let / Scope / Instalación de node JS: https://youtu.be/N1Xm7f-D-HQ
