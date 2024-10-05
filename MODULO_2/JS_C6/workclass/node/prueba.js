@@ -12,7 +12,7 @@ console.log(name) // Daniel
 // Para utilizar node.js 
 // abrimos 'open in intregated terminal' y ejecutamos dentro de la terminal
 // node nombredelarchivo junto con la extension ejemplo:
-// node main.js
+// node prueba.js
 
 // Dentro de la consola, no podemos utilizar:
 // prompt -> Es una utilidad de los navegadores
