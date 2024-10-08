@@ -14,17 +14,17 @@
 
 // scope Local: Cuando solo puede ser accedida en una parte del codigo
 
-// if(true){
-//     const name2 = 'Daniel'; // Scope Local: solamente existe en este caso dentro del if
-//     const age = 35;
-//     console.log(`Hola ${name}, tu edad es ${age}`) // Hola Daniel, tu edad es 35
-// }
+if(true){
+    const name2 = 'Daniel'; // Scope Local: solamente existe en este caso dentro del if
+    const age = 35;
+    console.log(`Hola ${name}, tu edad es ${age}`) // Hola Daniel, tu edad es 35
+}
 
 // console.log(`Hola ${name}, tu edad es ${age}`) // age y name is not defined -> No existen afuera del if
 
 // for(let i = 1; i <= 5; i++){
     // const name3 = 'Daniel' // scope local: Solamente existe dentro del for
-    // console.log(name3)
+    // console.log(name3) // Daniel
 // }
 
 // console.log(name3); //  name3 is not defined
@@ -42,8 +42,8 @@
 // scope block:
 
 // {
-    // let y = 20 // scope local.
-    // console.log(y)
+//     var y = 20 // scope local.
+//     console.log(y) // 20
 // }
 
 // console.log(y) // y is not defined
