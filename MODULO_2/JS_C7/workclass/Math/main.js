@@ -19,3 +19,4 @@ const numeroAleatorio = Math.random() * (30 - 15) + 15 // 19.04408688394434
 // console.log(Math.round(Math.random() * (30 - 15) + 15)); // 19
 
 
+
