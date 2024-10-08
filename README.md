@@ -42,3 +42,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C4. 30/09/2024 Condicional if / else if / else: https://youtu.be/4t9yRSKzVKU
 - C5. 02/10/2024 Bucles while y for: https://youtu.be/zOALaRRka-o
 - C6. 04/10/2024 var y let / Scope / Instalación de node JS: https://youtu.be/N1Xm7f-D-HQ
+- C7. 07/10/2024 Array y Math: https://youtu.be/w8lOW_5sgZI
