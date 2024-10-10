@@ -121,15 +121,27 @@
 
 
 // ---------------------------------------------------------
+
+// Ejmplo de como retornar varios valores de mi funcion (muy poco inusual que queramos esto)
 // Crea una funcion que calcule la edad del usuario dentro de 10 años y mostrarle el resultado  además tambien mostrarle su edad hace 10 años y mostarle el resultado, retornar los resultados
 
-function calcular (age){ // 45
-    const masDiez = age + 10 // 55
-    const menosDiez = age - 10 // 35
-    return [masDiez, menosDiez];
+// function calcular (age){ // 45
+//     const masDiez = age + 10 // 55
+//     const menosDiez = age - 10 // 35
+//     return [masDiez, menosDiez];
+// }
+
+// const valor = calcular(45) // -> [55, 35]
+
+// console.log('Tu edad dentro de 10 años sera', valor[0]) // 55
+// console.log('Tu edad hace 10 años fue', valor[1]); 35
+
+
+
+// ----------------------------------------------------------------
+// Podemos enviar como parametros a mi funcion un arreglo
+function calcularValor (array){
+    console.log(array)
 }
 
-const valor = calcular(45) // -> [55, 35]
-
-console.log('Tu edad dentro de 10 años sera', valor[0]) // 55
-console.log('Tu edad hace 10 años fue', valor[1]); 35
+calcularValor([1,5,2]) // Pueden enviar arreglos a la funcion
