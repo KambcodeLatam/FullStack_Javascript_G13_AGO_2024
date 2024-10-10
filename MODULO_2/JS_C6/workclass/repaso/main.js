@@ -2,7 +2,7 @@
 
 // while y for
 
-const age = 37;
+// const age = 37;
 // var number = 1;
 
 // while(number <= age){
@@ -10,12 +10,12 @@ const age = 37;
 //     number++
 // }
 
-for(var number = 1; number <= age; number++){
-    document.write(number, '<br>');
-    for(var i = 1; i <= 5; i++){
-        document.write('Hola <br>')
-    }   
-}
+// for(var number = 1; number <= age; number++){
+//     document.write(number, '<br>');
+//     for(var i = 1; i <= 5; i++){
+//         document.write('Hola <br>')
+//     }   
+// }
 
 // 1
 // Hola
@@ -37,5 +37,3 @@ for(var number = 1; number <= age; number++){
 // Hola
 // 4
 // 37
-
-
