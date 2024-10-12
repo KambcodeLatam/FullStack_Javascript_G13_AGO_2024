@@ -44,3 +44,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C6. 04/10/2024 var y let / Scope / Instalación de node JS: https://youtu.be/N1Xm7f-D-HQ
 - C7. 07/10/2024 Array y Math: https://youtu.be/w8lOW_5sgZI
 - C8. 09/10/2024 function y return: https://youtu.be/f4Jrukr-kY8
+- C9. 11/10/2024 Repaso bucles, arrays y function: https://youtu.be/i1k8AoLsqzU
