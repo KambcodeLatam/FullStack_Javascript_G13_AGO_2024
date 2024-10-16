@@ -139,4 +139,4 @@ const animales = [
     {animal: 'gato', age: 10, color: 'blanco'} // 2
 ]
 
-console.log(animales[1])
+console.log(animales[1]) // {animal: 'perro', age: 7, color: 'negro'}
