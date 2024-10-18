@@ -46,3 +46,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C8. 09/10/2024 function y return: https://youtu.be/f4Jrukr-kY8
 - C9. 11/10/2024 Repaso bucles, arrays y function: https://youtu.be/i1k8AoLsqzU
 - C10. 15/10/2024 Arrow Function y Objetos: https://youtu.be/iHwIPwj0rA8
+- C11. 17/10/2024 Modificando el DOM por medio de JS: https://youtu.be/ZrS78Jh7QAk
