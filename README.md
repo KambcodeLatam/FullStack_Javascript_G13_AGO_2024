@@ -48,3 +48,8 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C10. 15/10/2024 Arrow Function y Objetos: https://youtu.be/iHwIPwj0rA8
 - C11. 17/10/2024 Modificando el DOM por medio de JS: https://youtu.be/ZrS78Jh7QAk
 - C12. 21/10/2024 Algoritmia: https://youtu.be/1iIDbEeEn84
+
+## Modulo 3
+
+- 28/10/2024 Introducción GIT y GitHub https://www.youtube.com/watch?v=MVWCVpozrGo
+- 30/10/2024 Opciones Git add, merge y pull request https://www.youtube.com/watch?v=M5h4xPp4aWs
