@@ -93,6 +93,12 @@ const finalPrice1 = ( isMember && hasDiscount ) ? 50 : ( isMember || hasDiscount
 console.log({ finalPrice1 });
 
 
+// Reto
+// 1. Crear una variable de usuario, contraseña y rol 
+// 2. Evaluar si el usuario y la contraseña coinciden con un usuario predenterminado
+// 3. En caso de que se cumpla la anterior condición vamos a evaluar si el rol cumple con el rol predenterminado
+// 4. En caso de que no se cumpla la anterior condición (2) retornar un mensaje de error
+
 
 
 
