@@ -54,3 +54,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 28/10/2024 Introducción GIT y GitHub https://www.youtube.com/watch?v=MVWCVpozrGo
 - 30/10/2024 Opciones Git add, merge y pull request https://www.youtube.com/watch?v=M5h4xPp4aWs
 - 05/11/2024 Repaso y Markdown https://www.youtube.com/watch?v=g8LFd-2deOA
+- 07/11/2024 Ejercicio Markdown, operadores lógicos y operadores de comparación. nullish coalescing, condicionales(if-else, ternarios), proposiciones Lógicas  https://www.youtube.com/watch?v=WGe6gVJ3V3Q
