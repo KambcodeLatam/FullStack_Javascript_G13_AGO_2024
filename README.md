@@ -56,3 +56,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 05/11/2024 Repaso y Markdown https://www.youtube.com/watch?v=g8LFd-2deOA
 - 07/11/2024 Ejercicio Markdown, operadores lógicos y operadores de comparación. nullish coalescing, condicionales(if-else, ternarios), proposiciones Lógicas  https://www.youtube.com/watch?v=WGe6gVJ3V3Q
 - 13/11/2024 Arrays, Objects and loops https://www.youtube.com/watch?v=66LnOLvA3tQ
+- 15/11/2024 ES6 y Scoope https://www.youtube.com/watch?v=5Y-CEaeWfOk
+- 18/11/2024 Callbacks https://www.youtube.com/watch?v=ZPsT09dxeNQ
