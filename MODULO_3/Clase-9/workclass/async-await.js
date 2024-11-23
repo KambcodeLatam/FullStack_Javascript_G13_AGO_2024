@@ -1,3 +1,5 @@
+const axios = require('axios/dist/browser/axios.cjs'); 
+
 // Async-await: Simplifica el trabajo con funciones asíncronas y promesas en Javascript,
 
 //Sintaxis async/await
@@ -58,16 +60,20 @@ async function getPhoto() {
 }
 
 getPhoto();
+let pokemons;
 
 const getUsuarios = async () => {
     try {
         const data = await fetch("https://jsonplaceholder.typicode.com/users");
         const usuarios = await data.json();
+        pokemons = usuarios
         console.log({usuarios})
     } catch (error) {
         console.error({error})
     }
 }
+
+
 
 getUsuarios()
 
@@ -118,6 +124,20 @@ getNameAndNumber();
 //RETO
 
 // Crear 2 variables (comportamiento, calificaciones)
-// Crear 2 funciones con promesas que retorne el valor del comportamiento, calificaciones ( Si el resultado es true -> resolve, false -> reject)
+// Crear 2 funciones con promesas que retorne el valor del comportamiento, calificaciones 
+// ( Si el resultado es true -> resolve, false -> reject)
 // Crear una función con async/await y el promise all que me retorne el resultado de las funciones
 
+
+
+// const getUsuariosAxios = async () => {
+//     try {
+//         const data = await axios.get("https://jsonplaceholder.typicode.com/users");
+//         console.log({data}, 'Axios')
+    
+//     } catch (error) {
+//         console.error({error})
+//     }
+// }
+
+// getUsuariosAxios()
