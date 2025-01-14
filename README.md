@@ -59,3 +59,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 15/11/2024 ES6 y Scoope https://www.youtube.com/watch?v=5Y-CEaeWfOk
 - 18/11/2024 Callbacks https://www.youtube.com/watch?v=ZPsT09dxeNQ
 - 20/11/2024 Promesas https://www.youtube.com/watch?v=zLZR5KRAEFQ
+
+## Modulo 4
+
+- 13/01/2025 Pequeno repaso de DOM y metodos HTTP https://youtu.be/jKvem60JQ-Y
