@@ -63,3 +63,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 4
 
 - 13/01/2025 Pequeno repaso de DOM y metodos HTTP https://youtu.be/jKvem60JQ-Y
+- 15/01/2025 Ejercicio practico con metodo fetch y el porque usar react https://youtu.be/KLZvojmRNYw
