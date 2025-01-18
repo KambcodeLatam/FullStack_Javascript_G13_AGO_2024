@@ -31,4 +31,4 @@ Esta tarea tiene como objetivo ayudarte a reforzar conocimiento de como consumir
 
   ejemplo de una carta de presentacion
 
-  ![Ejemplo](../assets/ejemplo.png)
+  ![Ejemplo](./assets/ejemplo.png)
