@@ -1,0 +1,6 @@
+Bracket Pair Color DLW
+Material Icon Theme
+ES7+ React/Redux/React-Native snippets
+Auto Close Tag
+Prettier - Code formatter
+Bearded Theme
