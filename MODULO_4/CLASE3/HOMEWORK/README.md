@@ -116,7 +116,7 @@ Visita  http://localhost:5173 en tu navegador para ver el resultado de la aplica
 
 A continuación te presentamos un ejemplo de cómo podria verse tu tarjeta con estilos
 
-![homework](./resources/card.png)
+![homework](./card.png)
 
 ## RETO
 
