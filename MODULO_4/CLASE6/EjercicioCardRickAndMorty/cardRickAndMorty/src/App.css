@@ -1,0 +1,13 @@
+
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerGlobal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

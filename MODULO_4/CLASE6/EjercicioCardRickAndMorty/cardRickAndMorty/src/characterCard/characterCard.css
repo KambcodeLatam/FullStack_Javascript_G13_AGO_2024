@@ -1,0 +1,35 @@
+.cardArchitecture{
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 300px;
+    margin: 10px;
+}
+
+.image{
+    width: 100%;
+    background-color: black;
+}
+
+.title{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+.circle{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    position: absolute;
+    background-color: greenyellow;
+    box-shadow: 0 0 10px black;
+    transform: translate(90%, -50%);
+}
