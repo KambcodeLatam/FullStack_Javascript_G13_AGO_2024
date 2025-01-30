@@ -69,3 +69,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 22/01/2025 Uso de props y eventos https://youtu.be/bx-EXNwDEGo
 - 25/01/2025 Uso de useState y useEffect y metodo .map https://youtu.be/Fj9-e4IpBBY
 - 27/01/2025 uso de la biblioteca react-router-dom https://youtu.be/m3fNnJlIGIo
+- 29/01/2025 ejercio practico aplicando todos los temas https://youtu.be/gcPhHRKTWeE

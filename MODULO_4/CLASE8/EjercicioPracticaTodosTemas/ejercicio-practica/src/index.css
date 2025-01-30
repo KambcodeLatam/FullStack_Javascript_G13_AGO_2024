@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2';
+    background: darkgray;
+    font-size: 12px;
+    overflow-x: hidden;
+  } 
