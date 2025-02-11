@@ -72,3 +72,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/01/2025 ejercio practico aplicando todos los temas https://youtu.be/gcPhHRKTWeE
 - 31/01/2025 useParam y ejercicio practico search https://youtu.be/ALrYzMWCbSk
 - 03/02/2025 useNavigate, useLocation y URLsearchParams https://youtu.be/c49h_7mnZWI
+
+## Modulo 5
+
+- 10/02/2025 Repaso javascript (if, switch, arrays, objetos, ecma) https://youtu.be/LpuoBlsxdZI
