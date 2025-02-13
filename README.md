@@ -76,3 +76,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 5
 
 - 10/02/2025 Repaso javascript (if, switch, arrays, objetos, ecma) https://youtu.be/LpuoBlsxdZI
+- 12/02/2025 Introduccion a nodejs y npm  https://youtu.be/937QKjXc8bY

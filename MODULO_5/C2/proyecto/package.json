@@ -1,0 +1,23 @@
+{
+  "name": "nombre",
+  "version": "0.0.1",
+  "description": "Este es un proyecto de prueba para aprender node js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aprendizaje",
+    "nodejs",
+    "pruebas"
+  ],
+  "author": "Daniel Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "nodemon": "^3.1.9"
+  }
+}
