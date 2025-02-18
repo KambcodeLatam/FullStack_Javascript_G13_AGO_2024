@@ -78,4 +78,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 10/02/2025 Repaso javascript (if, switch, arrays, objetos, ecma) https://youtu.be/LpuoBlsxdZI
 - 12/02/2025 Introduccion a nodejs y npm  https://youtu.be/eWjj9Ue-iJM 
 - 14/02/2025 Promesas, async await, callbacks https://youtu.be/YFJlsZhfApM
+- 17/02/2025 Streams, buffers y archivos https://youtu.be/jeozobf3e5A
 
