@@ -80,5 +80,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 14/02/2025 Promesas, async await, callbacks https://youtu.be/YFJlsZhfApM
 - 17/02/2025 Streams, buffers y archivos https://youtu.be/jeozobf3e5A
 - 19/02/2025 process, argv, env https://youtu.be/LaVugkrUx1E
+- 21/02/2025 Creando un servidor con http https://youtu.be/aXmFk4VeIDA
+- 24/02/2025 Creando un servidor en express https://youtu.be/7fUp-C8qmwU 
 
 
