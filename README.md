@@ -84,6 +84,8 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 24/02/2025 Creando un servidor en express https://youtu.be/7fUp-C8qmwU 
 - 26/02/2025 Middlewares, registro usuarios https://youtu.be/JQHYNZWuthQ
 - 03/03/2025 Middlewares, autenticación y autorización https://youtu.be/icXf2etuUpI 
+- 04/03/2025 introduccion a open ai https://youtu.be/ySGH9ypflwU
+
 
 
 
