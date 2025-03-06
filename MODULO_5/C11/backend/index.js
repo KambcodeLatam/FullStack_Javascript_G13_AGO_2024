@@ -1,9 +1,11 @@
 import 'dotenv/config';
-import express, { json } from 'express';
+import express from 'express';
+import cors from 'cors';
 
 const app = express()
-
+app.use(cors())
 app.use(express.json())
+
 
 const openAiKey = process.env.API_KEY_OPENAI
 const geminiApiKey = process.env.API_KEY_GEMINI
