@@ -13,7 +13,7 @@ function FeelForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Aquí puedes manejar el dato, por ejemplo, enviarlo a un backend
-    const data = await fetch('http://localhost:3000/question/gemini', {
+    const data = await fetch('https://backend-clase-node.vercel.app/question/gemini', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

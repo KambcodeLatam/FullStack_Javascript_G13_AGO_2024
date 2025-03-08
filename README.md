@@ -86,6 +86,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 03/03/2025 Middlewares, autenticación y autorización https://youtu.be/icXf2etuUpI 
 - 04/03/2025 introduccion a open ai https://youtu.be/ySGH9ypflwU
 - 05/03/2025 Creacion frontend, conectar con backend y uso de gemini https://youtu.be/etCa2yskuJQ
+- 07/03/2025 Desplegando backend frontend https://youtu.be/51vC2V9zqQ4 
 
 
 
