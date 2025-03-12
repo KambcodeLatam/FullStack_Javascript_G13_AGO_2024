@@ -88,7 +88,8 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 05/03/2025 Creacion frontend, conectar con backend y uso de gemini https://youtu.be/etCa2yskuJQ
 - 07/03/2025 Desplegando backend frontend https://youtu.be/51vC2V9zqQ4 
 
-
+## Modulo 6
+- 11/03/2025 Introduccion Base de datos https://youtu.be/bBRKlJyUjMM
 
 
 
