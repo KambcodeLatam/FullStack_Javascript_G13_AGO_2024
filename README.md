@@ -89,7 +89,8 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 07/03/2025 Desplegando backend frontend https://youtu.be/51vC2V9zqQ4 
 
 ## Modulo 6
-- 11/03/2025 Introduccion Base de datos https://youtu.be/bBRKlJyUjMM
+- 10/03/2025 Introduccion Base de datos https://youtu.be/bBRKlJyUjMM
+- 12/03/2025 Introduccion PostgreSQL https://youtu.be/MKl6xyxy4Aw
 
 
 
