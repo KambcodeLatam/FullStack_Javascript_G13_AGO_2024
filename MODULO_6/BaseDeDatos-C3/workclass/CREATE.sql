@@ -1,0 +1,53 @@
+-- CREATE
+
+CREATE TABLE IF NOT EXISTS authors (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS members (
+	id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(250) NOT NULL,
+	email VARCHAR NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS membersDetails (
+	id SERIAL PRIMARY KEY,
+	phone VARCHAR,
+	address VARCHAR(100) NOT NULL,
+	member_id INTEGER NOT NULL,
+
+	FOREIGN KEY (member_id) REFERENCES members(id)	
+);
+
+
+CREATE TABLE IF NOT EXISTS books (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR NOT NULL,
+	author_id INTEGER NOT NULL,
+
+	FOREIGN KEY (author_id) REFERENCES authors(id)
+);
+
+
+CREATE TABLE IF NOT EXISTS borrowedBooks (
+	id SERIAL PRIMARY KEY,
+	borrow_date DATE NOT NULL DEFAULT CURRENT_DATE,
+	return_date DATE,
+	book_id INTEGER NOT NULL,
+	member_id INTEGER NOT NULL,
+
+	FOREIGN KEY (book_id) REFERENCES books(id),
+	FOREIGN KEY (member_id) REFERENCES members(id)
+
+);
+
+
+CREATE TABLE IF NOT EXISTS borrowedBooks (
+	id SERIAL PRIMARY KEY,
+	borrow_date DATE NOT NULL DEFAULT CURRENT_DATE,
+	return_date DATE,
+	book_id INTEGER NOT NULL REFERENCES books(id),
+	member_id INTEGER NOT NULL REFERENCES members(id)
+);
+

@@ -1,0 +1,39 @@
+-- DML
+
+-- CREATE
+CREATE DATABASE "my-databse";
+
+-- DELETE
+DROP DATABASE "my-databse";
+
+
+-- CREATE TABLES
+
+CREATE table students (
+	id INTEGER PRIMARY KEY,
+	name VARCHAR NOT NULL,
+	email VARCHAR NOT NULL UNIQUE
+);
+
+-- ALTER 
+
+-- ADD COLUMN
+ALTER TABLE students ADD COLUMN phone VARCHAR;
+
+-- DROP COLUMN
+ALTER TABLE students DROP COLUMN phone;
+
+-- RENAME COLUMN
+ALTER TABLE students RENAME COLUMN name TO student;
+ALTER TABLE students RENAME COLUMN student TO name;
+
+-- ALTER COLUMN
+ALTER TABLE students ALTER COLUMN email TYPE VARCHAR(25);
+
+-- DELETE TABLE
+
+DROP TABLE students;
+
+-- TRUNCATE
+
+TRUNCATE TABLE students;

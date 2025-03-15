@@ -91,6 +91,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 6
 - 10/03/2025 Introduccion Base de datos https://youtu.be/bBRKlJyUjMM
 - 12/03/2025 Introduccion PostgreSQL https://youtu.be/MKl6xyxy4Aw
+- 14/03/2025 SQL Creacion de Tablas https://youtu.be/MBKeneYV8CE
 
 
 
