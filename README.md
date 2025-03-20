@@ -93,3 +93,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 12/03/2025 Introduccion PostgreSQL https://youtu.be/MKl6xyxy4Aw
 - 14/03/2025 SQL Creacion de Tablas https://youtu.be/MBKeneYV8CE
 - 17/03/2025 SQL Sentencia SELECT https://youtu.be/Hw-52igLBhU
+- 19/03/2025 SQL JOIN https://youtu.be/KH3fBSXw_kM
