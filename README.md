@@ -94,3 +94,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 14/03/2025 SQL Creacion de Tablas https://youtu.be/MBKeneYV8CE
 - 17/03/2025 SQL Sentencia SELECT https://youtu.be/Hw-52igLBhU
 - 19/03/2025 SQL JOIN https://youtu.be/KH3fBSXw_kM
+- 21/03/2025 Express Node Js https://youtu.be/XcJ_qsx-5p4
