@@ -97,3 +97,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 21/03/2025 Express Node Js https://youtu.be/XcJ_qsx-5p4
 - 26/03/2025 ORM Sequelize https://youtu.be/tKYF3nnSDGw
 - 27/03/2025 ORM Modelos https://youtu.be/kMRHo9MfaUU
+- 27/03/2025 ORM JOIN y Selects https://youtu.be/GKBlL8X2qjQ
