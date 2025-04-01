@@ -98,3 +98,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/03/2025 ORM Sequelize https://youtu.be/tKYF3nnSDGw
 - 27/03/2025 ORM Modelos https://youtu.be/kMRHo9MfaUU
 - 27/03/2025 ORM JOIN y Selects https://youtu.be/GKBlL8X2qjQ
+- 27/03/2025 ODM base de datos NOSQL https://youtu.be/_KAxjH9PtH8
